@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl" ng-app>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="../angular-1.8.2/angular.min.js"></script>
+    <title>SHOPS SEARCH</title>
+</head>
+<body>
+    <h1>SHOPS SEARCH</h1>
+    <main>
+        <div class="row">
+            <div class="search-box">
+                <input ng-init type="text" ng-model="item">
+            </div>
+            <a class='shop-item' target="_blank" href='https://allegro.pl/listing?string={{item}}'><img class='logo' src='logo/allegro.png'></a>
+            <a class='shop-item' target="_blank" href='https://www.avans.pl/search?query[menu_item]=&query[querystring]={{item}}'><img class='logo' src='logo/avans.png'></a>
+            <a class='shop-item' target="_blank" href='https://www.electro.pl/search?query[menu_item]=&query[querystring]={{item}}'><img class='logo' src='logo/electro.png'></a>
+            <a class='shop-item' target="_blank" href='https://www.komputronik.pl/search/category/1?query={{item}}'><img class='logo' src='logo/komputronik.png'></a>
+            <a class='shop-item' target="_blank" href='https://maxelektro.pl/wyszukiwarka/szukaj.html?query={{item}}'><img class='logo' src='logo/maxelektro.png'></a>
+            <a class='shop-item' target="_blank" href='https://www.mediaexpert.pl/search?query[menu_item]=&query[querystring]={{item}}'><img class='logo' src='logo/mediaexpert.png'></a>
+            <a class='shop-item' target="_blank" href='https://mediamarkt.pl/search?query%5Bmenu_item%5D=&query%5Bquerystring%5D={{item}}'><img class='logo' src='logo/mediamarkt.png'></a>
+            <a class='shop-item' target="_blank" href='https://www.morele.net/wyszukiwarka/0/0/,,,,,,,,,,,,/1/?q={{item}}'><img class='logo' src='logo/morele.jpeg'></a>
+            <a class='shop-item' target="_blank" href='https://www.mycenter.pl/produkty.html?query={{item}}'><img class='logo' src='logo/mycenter.png'></a>
+            <a class='shop-item' target="_blank" href='https://www.neo24.pl/search.html?order=score&query={{item}}'><img class='logo' src='logo/neo24.png'></a>
+            <a class='shop-item' target="_blank" href='https://www.neonet.pl/search.html?order=score&query={{item}}'><img class='logo' src='logo/neonet.png'></a>
+            <a class='shop-item' target="_blank" href='https://www.oleole.pl/search.bhtml?keyword={{item}}'><img class='logo' src='logo/oleole.png'></a>
+            <a class='shop-item' target="_blank" href='https://www.olx.pl/oferty/q-{{item}}'><img class='logo' src='logo/olx.png'></a>
+            <a class='shop-item' target="_blank" href='https://www.euro.com.pl/search.bhtml?keyword={{item}}'><img class='logo' src='logo/rtveuroagd.png'></a>
+            <a class='shop-item' target="_blank" href='https://www.x-kom.pl/szukaj?q={{item}}'><img class='logo' src='logo/xkom.png'></a>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,62 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body
+{
+    width: 100%;
+    background-color: rgb(0, 140, 255);
+}
+h1
+{
+    line-height: 100px;
+    text-align: center;
+    color: white;
+}
+.search-box
+{
+    width: 100%;
+    text-align: center;
+}
+.search-box input
+{
+    margin: 2px;
+    padding: 5px;
+}
+.row
+{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.shop-item
+{
+    display: block;
+    width: 200px;
+    line-height: 200px;
+    margin: 10px;
+    background-color: white;
+}
+.shop-item:hover
+{
+    background-color: rgb(196, 196, 196);
+    transition: 0.5s;
+}
+.logo
+{
+    width: 200px;
+    vertical-align: middle;
+    padding: 5px;
+}
+@media screen and (max-width: 1000px)
+{
+    .row
+    {
+        width: 100%;
+    }
+}
